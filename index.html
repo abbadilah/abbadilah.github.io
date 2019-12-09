@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9c27b0">
+  <meta name="Description" content="Tata Surya">
+  <link rel="shortcut icon" href="/image/planet.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Tata Surya</title>
+
+  <!-- CSS  -->
+  <link href="/css/font.css" rel="stylesheet">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="purple lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo"><img src="/image/planet.png" height="55"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="white-text">Beranda</a></li>
+        <li><a href="/comp/jmateri.html" class="white-text">Tata Surya</a></li>
+        <li><a href="/kuis/kuis.html" class="white-text">Kuis</a></li>
+        <li><a href="/comp/tentang.html" class="white-text">Tentang</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="/comp/jmateri.html">Tata Surya</a></li>
+        <li><a href="/kuis/kuis.html">Kuis</a></li>
+        <li><a href="/comp/tentang.html">Tentang</a></li>
+      
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+     <!-- <div class="background-wrap"> -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center light">Tata Surya</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Tata surya adalah susunan benda-benda langit yang terdiri atas Matahari sebagai pusat tata surya, planet-planet, komet, meteoroid, dan asteroid yang mengelilingi Matahari.</h5>
+        </div>
+        <div class="row center">
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="/image/background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="center">
+        <h2>Materi Belajar<h2>
+      </div>
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">public</i></h2>
+            <h5 class="center">Planet</h5>
+
+            <p class="light center">Planet adalah benda langit yang tidak dapat memancarkan cahaya sendiri akan tetapi hanya memantulkan cahaya dari bintang yang diterimanya.</p>
+          </div>
+        </div>
+        
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">cloud_queue</i></h2>
+            <h5 class="center">Benda Langit</h5>
+
+            <p class="light center">Benda-benda langit adalah objek fisik atau struktur yang ada di alam semesta teramati. Contoh benda langit adalah planet, satelit, bintang, nebula, galaksi, asteroid, meteoroid, sistem keplanetan, Komet, dll.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">brightness_2</i></h2>
+            <h5 class="center">Peristiwa Tata Surya</h5>
+
+            <p class="light center">Peristiwa dalam Tata Surya adalah kejadian yang luar biasa yang terjadi didalam sistem Tata Surya. Contoh meteor jatuh ke bumi, gerhana matahari, gerhana bulan, dll</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container center">
+    <a href="/comp/jmateri.html" class="btn-large waves-effect waves-light">Mulai Belajar</a>
+  </div>
+  <br/>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header light center">Kuis</h4>
+          <h5 class="header light center">Kerjakan Kuis untuk menguji kemampuanmu</h5>
+           <a href="/kuis/kuis.html" class="btn-large waves-effect waves-light">Mulai Kuis</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/image/gbulan1.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <footer class="page-footer purple lighten-1">
+    <div class="container">
+      <div class="row"> </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3">Abbadilah Widhodho Hanif H</a> &copy; Copyright 2019 Materializecss
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+<script>
+  // REGISTER SERVICE WORKER
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/serviceworker.js")
+        .then(function() {
+          console.log("Pendaftaran ServiceWorker berhasil");
+        })
+        .catch(function() {
+          console.log("Pendaftaran ServiceWorker gagal");
+        });
+    });
+  } else {
+    console.log("ServiceWorker belum didukung browser ini.");
+  }
+</script>
+
+
+  <script src="/js/jquery-2.1.1.min.js"></script>
+  <script src="/js/materialize.js"></script>
+  <script src="/js/init.js"></script>
+
+  </body>
+</html>

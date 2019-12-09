@@ -1,0 +1,454 @@
+body, html {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+  background-image: url("/image/background.jpg");
+  height: auto;
+  width: 100%;
+  background-size: cover; 
+}
+
+.earth {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/bumi.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.mars {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/mars.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.merkurius {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/merkurius.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.venus {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/venus.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.jupiter {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/jupiter.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.saturnus {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/saturnus.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -30px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.uranus {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/uranus.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -40px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.neptunus {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/neptunus.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.bulan {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/bulan.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #FFFFE0 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.matahari {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/sun.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #FFD700 inset, 0 0 20px #FFD700;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.pluto {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  background-image: url("/image/pluto.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.asteroid {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("/image/asteroid.png");
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.comet {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  background-image: url("/image/comet.png");
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.meteor {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  background-image: url("/image/meteor.png");
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.revolusi {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/bumi.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -90px 0 10px 2px #000 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+@keyframes eclipse {
+  0% {
+    left: -400px;
+  }
+  50% {
+    left: 2px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+.gerhanab {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/bulan.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #FFFFE0 inset, 0 0 20px #000;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.gerhanab:after {
+  content: "";
+  display: block;
+  background: #15152F;
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  animation: eclipse 10s infinite;
+  transition: all 1000s ease;
+}
+
+.gerhanam {
+   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 290px;
+  height: 290px;
+  background-image: url("/image/sun.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #FFD700 inset, 0 0 20px #FFD700;
+    -webkit-animation:rotationEarth 5s infinite linear;
+    -moz-animation:rotationEarth 5s infinite linear;
+    animation:rotationEarth 5s infinite linear;
+}
+
+.gerhanam:after {
+  content: "";
+  display: block;
+  background: #15152F;
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  animation: eclipse 10s infinite;
+  transition: all 1000s ease;
+}
+
+
+.container-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.font-size {
+  font-size: 10px;
+}
+
+.bottom-left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-center{
+  position: absolute;
+  left: -10%;
+  top: 50%;
+}
+
+.right-center{
+  position: absolute;
+  right: 30%;
+  top: 50%;
+}
+.text-block{
+  position: absolute;
+  bottom: 100%;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.line-container {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+
+.line-container .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+
+@-webkit-keyframes rotationEarth {
+   from {
+       background-position:left center;
+   }
+   to {
+       background-position: -396px center;
+   }
+}
+
+@keyframes rotationEarth {
+   from {
+       background-position:left center;
+   }
+   to {
+       background-position: -396px center;
+   }
+}
+s

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Planet yang mempunyai cincin dinamakan planet...",
+    "choice1": "Saturnus",
+    "choice2": "Bumi",
+    "choice3": "Mars",
+    "choice4": "Jupiter",
+    "answer": 1
+  },
+  {
+    "question": "susunan benda-benda langit yang terdiri atas Matahari sebagai pusatnya, disebut sebagai...",
+    "choice1": "Planet",
+    "choice2": "Galaksi",
+    "choice3": "Tata Surya",
+    "choice4": "Bima sakti",
+    "answer": 3
+  },
+  {
+    "question": "Pusat tata surya adalah...",
+    "choice1": "Bumi",
+    "choice2": "Matahari",
+    "choice3": "Bulan",
+    "choice4": "Bintang",
+    "answer": 2
+  },
+  {
+    "question": "Satu-satunya planet yang didiami oleh makhluk hidup adalah...",
+    "choice1": "Saturnus",
+    "choice2": "Bumi",
+    "choice3": "Mars",
+    "choice4": "Venus",
+    "answer": 2
+  },
+  {
+    "question": "Revolusi bumi mengakibatkan...",
+    "choice1": "Perbedaan waktu",
+    "choice2": "Perbedaan grafitasi",
+    "choice3": "Pergantian musim",
+    "choice4": "Gerak semu harian matahari",
+    "answer": 3
+  },
+  {
+    "question": "Meteor yang tidak habis terbakar dan jatuh ke bumi disebut...",
+    "choice1": "Asteorid",
+    "choice2": "Bintang jatuh",
+    "choice3": "Komet",
+    "choice4": "Meteorid",
+    "answer": 4
+  },
+  {
+    "question": "Rotasi bumi mengakibatkan...",
+    "choice1": "Pergantian siang dan malam",
+    "choice2": "Pergantian musim",
+    "choice3": "Pergerakan semu tahunan matahari",
+    "choice4": "Terlihatnya rasi bintang yang berbeda dari bulan ke bulan",
+    "answer": 1
+  },
+  {
+    "question": "Arah rotasi bumi adalah...",
+    "choice1": "Utara ke selatan",
+    "choice2": "Barat ke timur",
+    "choice3": "Timur ke barat",
+    "choice4": "Selatan ke utara",
+    "answer": 2
+  },
+  {
+    "question": "Gerak planet-planet mengelilingi matahari disebut...",
+    "choice1": "Gerak rotasi",
+    "choice2": "Gerak transisi",
+    "choice3": "Gerak lonjong",
+    "choice4": "Gerak revolusi",
+    "answer": 4
+  },
+  {
+    "question": "Yang merupakan planet terbesar di tata surya adalah ...",
+    "choice1": "Jupiter",
+    "choice2": "Uranus",
+    "choice3": "Mars",
+    "choice4": "Bumi",
+    "answer": 1
+  }
+]

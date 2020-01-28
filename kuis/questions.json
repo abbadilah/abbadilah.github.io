@@ -71,6 +71,38 @@
     "choice4": "Gerak revolusi",
     "answer": 4
   },
+   {
+    "question": "Komet berasal dari bahasa yunani , yang artinya yaitu ...",
+    "choice1": "Benda langit",
+    "choice2": "Berambut panjang",
+    "choice3": "Kilat",
+    "choice4": "Meteor",
+    "answer": 2
+  },
+   {
+    "question": "Planet yang memiliki satelit terbanyak ...",
+    "choice1": "Yupiter",
+    "choice2": "Merkurius",
+    "choice3": "Neptunus",
+    "choice4": "Saturnus",
+    "answer": 4
+  },
+   {
+    "question": "Planet yang memiliki satelit adalah ...",
+    "choice1": "Bulan",
+    "choice2": "Mars",
+    "choice3": "Merkurius",
+    "choice4": "Matahari",
+    "answer": 2
+  },
+   {
+    "question": "Yang merupakan dari inti matahari dibawah ini adalah...",
+    "choice1": "Karona",
+    "choice2": "Fotosfer",
+    "choice3": "Kromosom",
+    "choice4": "Fotosintesis",
+    "answer": 2
+  },
   {
     "question": "Yang merupakan planet terbesar di tata surya adalah ...",
     "choice1": "Jupiter",

@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/image/planet.png">
-    <title>Nilai</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
     <link rel="stylesheet" href="/css/app.css" />
   </head>
   <body>
     <div class="container">
       <div id="end" class="flex-center flex-column">
-        <h1 class="center">Nilai</h1>
-        <h1 id="finalScore"></h1>
-        <a class="btn" href="/kuis/game.html">Ulang Kuis</a>
-        <a class="btn" href="/">Kembali ke Beranda</a>
+        <h2 align="center">Nilai dapat dilihat <br> Nilai Tertinggi</h2>
+        <h1 id="finalScore" hidden="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Masukkan Nama"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+        </form>
+        <a class="btn" href="/kuis/game.html">Ulangi Kuis</a>
+        <a class="btn" href="/kuis/kuis.html">Kembali Ke kuis</a>
+        <a class="btn" href="/">Kembali Ke Beranda</a>
       </div>
     </div>
     <script src="/js/end.js"></script>

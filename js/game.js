@@ -26,7 +26,7 @@ fetch("/kuis/questions.json")
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 11;
 
 startGame = () => {
   questionCounter = 0;

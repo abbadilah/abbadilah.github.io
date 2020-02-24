@@ -1,5 +1,4 @@
-[
-  {
+[{
     "question": "Planet yang mempunyai cincin dinamakan planet...",
     "choice1": "Saturnus",
     "choice2": "Bumi",
@@ -71,7 +70,7 @@
     "choice4": "Gerak revolusi",
     "answer": 4
   },
-   {
+  {
     "question": "Komet berasal dari bahasa yunani , yang artinya yaitu ...",
     "choice1": "Benda langit",
     "choice2": "Berambut panjang",
@@ -79,7 +78,7 @@
     "choice4": "Meteor",
     "answer": 2
   },
-   {
+  {
     "question": "Planet yang memiliki satelit terbanyak ...",
     "choice1": "Yupiter",
     "choice2": "Merkurius",
@@ -87,7 +86,7 @@
     "choice4": "Saturnus",
     "answer": 4
   },
-   {
+  {
     "question": "Planet yang memiliki satelit adalah ...",
     "choice1": "Bulan",
     "choice2": "Mars",
@@ -95,7 +94,7 @@
     "choice4": "Matahari",
     "answer": 2
   },
-   {
+  {
     "question": "Yang merupakan dari inti matahari dibawah ini adalah...",
     "choice1": "Karona",
     "choice2": "Fotosfer",
